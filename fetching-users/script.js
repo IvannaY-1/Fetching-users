@@ -54,3 +54,12 @@ const container = document.getElementById("userDataDisplay");
 
   container.innerHTML = userCards;
 }
+
+function filterUsers() {
+  const searchTerm = document.getElementById('searchField').value.toLowerCase();
+  const filteredUsers = allUsers.filter(user => user.name.toLowerCase().includes(searchTerm));
+  
+  renderUsers(filteredUsers);
+}
+
+loadUserData();

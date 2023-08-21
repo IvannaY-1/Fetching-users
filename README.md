@@ -6,39 +6,23 @@ This project consists of JavaScript functions to fetch user data from an API, di
 
 - [Purpose](#purpose)
 - [Usage](#usage)
-- [Functions](#functions)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Purpose
 
-The purpose of this project is to demonstrate how to fetch user data from an API, display it in styled cards, and implement a search functionality to filter users based on their names.
+The purpose of this project is to demonstrate how to fetch user data from an API, display it in styled cards, and implement search functionality to filter users based on their names.
 
 ## Usage
 
 1. Open `index.html` in a web browser.
 2. The page will display a loading message while fetching user data from the API.
 3. Once the data is fetched, user information will be displayed in styled cards.
-4. Enter a search term in the search bar to filter users by name.
+![image](https://github.com/IvannaY-1/fetching-users-syartrer-code/assets/140416055/69048f11-4561-44c3-ab7f-c01677a595bf)
+5. Enter a search term in the search bar to filter users by name.
+![image](https://github.com/IvannaY-1/fetching-users-syartrer-code/assets/140416055/3159c24a-04ed-4b51-b9e8-275e80521bb8)
 
-## Functions
-
-### `fetchUserData()`
-
-This function fetches user data from the API, handles errors, and updates the `allUsers` global variable.
-
-### `renderUsers(users)`
-
-This function displays user information in styled cards. It checks the loading state and displays appropriate messages.
-
-### `filterUsers()`
-
-This function filters and displays user cards based on the search term provided in the search bar.
-
-### `displayErrorMessage(message)`
-
-This function displays error messages to the user.
 
 ## Getting Started
 
